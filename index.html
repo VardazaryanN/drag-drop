@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<title>Draggable Todo App</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="card" id="first">
+			
+				<h2>No status</h2>
+				<button type="submit" class="add-btn">+ Add</button>
+			
+			
+		</div>
+
+		<div class="card">
+			
+				<h2>Not started</h2>
+			
+		</div>
+
+		<div class="card">
+			
+				<h2>In progress</h2>
+			
+		</div>
+
+		<div class="card">
+			
+				<h2>Completed</h2>
+			
+		</div>
+	</div>
+
+	<div class="form-todo">
+		
+		<form class="creat-todo-form">
+			<i class="fas fa-times formClose" id="form-close"></i>
+			<input type="text" class="todo-inp" placeholder="Type your ToDo">
+			<button  class="createToDo">Create To Do</button>
+		</form>
+	</div>
+	<script type="text/javascript" src="vanilla-tilt.js"></script>
+	<script src="app.js"></script>
+	
+</body>
+</html>
